@@ -347,6 +347,18 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.btn-download {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 10px 15px; /* Padding for a better button size */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn-download:hover {
+  background-color: #444; /* Dark gray on hover */
+}
 .fh5co-social-icons {
   margin: 0;
   padding: 0;
